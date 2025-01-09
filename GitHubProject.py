@@ -39,4 +39,4 @@
 with open("persons.txt", mode="r", encoding="utf-8") as f:
     print(f.readline()[3])
     print(f.readline()[7])
-
+3
