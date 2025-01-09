@@ -23,16 +23,20 @@
 #        print(m)
 #    m=m+1
 
-q = 0
+#q = 0
 
-while q < 100:
-    q+= 1
-    if(q%15 == 0):
-        print("digital history")
-    elif (q%5 ==0):
-        print("history")
-    elif (q%3 == 0):
-        print("digital")
-    else:
-        print(q)
+#while q < 100:
+#    q+= 1
+#    if(q%15 == 0):
+#        print("digital history")
+#    elif (q%5 ==0):
+#        print("history")
+#    elif (q%3 == 0):
+#        print("digital")
+#    else:
+#        print(q)
+
+with open("persons.txt", mode="r", encoding="utf-8") as f:
+    print(f.readline()[3])
+    print(f.readline()[7])
 
