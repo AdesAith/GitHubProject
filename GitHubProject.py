@@ -36,7 +36,19 @@
 #    else:
 #        print(q)
 
-with open("persons.txt", mode="r", encoding="utf-8") as f:
-    print(f.readline()[3])
-    print(f.readline()[7])
-3
+#with open("persons.txt", mode="r", encoding="utf-8") as f:
+    #print(f.readline()[3])
+    #print(f.readline()[7])
+#3
+
+#mode: r = read, w = write, a = amend/ammend
+
+def digital_history(n, m):
+ while(n< 100):
+    n = n+1
+    if (n % 3 == 0 or n% 5 == 0):
+        print( 'digital history')
+    else:
+        print(n)
+
+digital_history(n=13, m=94)
